@@ -1,0 +1,10 @@
+node_modules
+package.lock.json
+build
+html-report
+cypress/cucumber-json
+cypress/htmlReports
+coverage
+.github
+jest_html_reporters.html
+readme.MD

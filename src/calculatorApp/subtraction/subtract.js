@@ -1,4 +1,4 @@
 function subtract(a, b) {
-    return a - b;
-  }
-  module.exports = subtract;
+	return a - b;
+}
+module.exports = subtract;
