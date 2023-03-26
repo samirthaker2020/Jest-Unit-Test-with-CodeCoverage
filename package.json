@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "sum.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"format": "npx prettier --write src/calculatorApp/**/*.js"
 	},
 	"author": "",
 	"license": "ISC",
@@ -29,6 +30,11 @@
 		"collectCoverageFrom": [
 			"./src/**"
 		],
+		"lint-staged": {
+			"**/*.{ts,js,json}": [
+				"prettier --write ."
+			]
+		},
 		"reporters": [
 			"default",
 			[
