@@ -5,7 +5,8 @@
 	"main": "sum.js",
 	"scripts": {
 		"test": "jest",
-		"format": "npx prettier --write src/calculatorApp/**/*.js"
+		"format-check": "npx prettier --check src/calculatorApp/**/*.js",
+		"format-fix": "npx prettier --write src/calculatorApp/**/*.js"
 	},
 	"author": "",
 	"license": "ISC",
